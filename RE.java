@@ -2,7 +2,6 @@ import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-// 1. On étend UnicastRemoteObject et on implémente Console
 public class RE extends UnicastRemoteObject implements Console {
     public RE() throws RemoteException {
         super();
